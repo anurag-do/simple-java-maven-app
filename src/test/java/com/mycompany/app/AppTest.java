@@ -24,6 +24,7 @@ public class AppTest
     public void testAppConstructor() {
         try {
             new App();
+            System.out.println("test message");
         } catch (Exception e) {
             fail("Construction failed.");
         }
